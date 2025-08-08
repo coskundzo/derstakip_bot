@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 import asyncio
 
 # --- Bot Token ---
-TOKEN = "8113511007:AAEiYJM-8Y-0qQxYkfbBj297WpOyF2HWpFI"
+TOKEN = "token"
 
 # --- Ders Programı ---
 # Format: (Gün, Saat): "Ders Adı"
@@ -61,3 +61,4 @@ async def hatirlatma():
 
 if __name__ == "__main__":
     asyncio.run(hatirlatma())
+
